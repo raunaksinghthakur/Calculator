@@ -1,0 +1,59 @@
+.container {
+    margin: auto;
+    background-image: url(./assest/gradient-bg.jpg);
+    height: 100vh;
+    width: 100vw;
+}
+h1{
+    font-weight: 700;
+    margin-bottom: 8px;
+    line-height: 8rem;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.1px;
+    
+}
+
+#answer {
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+input {
+    font-size: 30px;
+    width: 65px;
+    height: 55px;
+    margin: 5px;
+    border:1px solid;
+    border-radius: 8px;
+    background: rgb(33, 104, 82);
+    outline: none;
+}
+
+.calc {
+    background: rgb(136, 200, 200);
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+input {
+    box-shadow: 5px 5px 5px rgb(68, 91, 210), -5px -5px 5px rgb(209, 137, 203);
+}
+
+input:active {
+    box-shadow: inset 5px 5px 5px grey, inset -5px -5px 5px white;
+}
+
+#answer {
+    box-shadow: inset 5px 5px 5px grey, inset -5px -5px 5px white;
+}
+
+.calc {
+    box-shadow: 5px 5px 5px grey, -5px -5px 5px grey;
+}
+.foter{
+    color: white;
+    margin-top: 30px;
+}

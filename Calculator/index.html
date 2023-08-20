@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="./assest/calculator.gif" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container" align="center">
+
+        <h1>CALCULATOR</h1>
+        <form name="forms">
+            <div class="calc">
+                <input type="text" id="answer" name="screen">
+                <br>
+
+                <input type="button" value=" 7 " onclick="forms.screen.value+='7',vib()">
+                <input type="button" value=" 8 " onclick="forms.screen.value+='8',vib()">
+                <input type="button" value=" 9 " onclick="forms.screen.value+='9',vib()">
+                <input type="button" value=" AC " onclick="forms.screen.value ='',vib()">
+                <br>
+                <input type="button" value=" 4 " onclick="forms.screen.value+='4',vib()">
+                <input type="button" value=" 5 " onclick="forms.screen.value+='5',vib()">
+                <input type="button" value=" 6 " onclick="forms.screen.value+='6',vib()">
+                <input type="button" value=" + " onclick="forms.screen.value+='+',vib()">
+                <br>
+                <input type="button" value=" 1 " onclick="forms.screen.value+='1',vib()">
+                <input type="button" value=" 2 " onclick="forms.screen.value+='2',vib()">
+                <input type="button" value=" 3 " onclick="forms.screen.value+='3',vib()">
+                <input type="button" value=" - " onclick="forms.screen.value+='-',vib()">
+                <br>
+
+                <input type="button" value=" . " onclick="forms.screen.value+='.',vib()">
+                <input type="button" value=" 0 " onclick="forms.screen.value+='0',vib()">
+                <input type="button" value=" = " onclick="forms.screen.value = eval(forms.screen.value),vib()">
+                <input type="button" value=" * " onclick="forms.screen.value+='*',vib()">
+                <br>
+
+                <input type="button" value=" ( " onclick="forms.screen.value+='(',vib()">
+                <input type="button" value=" ) " onclick="forms.screen.value+=')',vib()">
+                <input type="button" value=" % " onclick="forms.screen.value+='%',vib()">
+                <input type="button" value=" / " onclick="forms.screen.value+='/',vib()">
+                <br>
+
+
+            </div>
+
+        </form>
+
+       <footer> 
+
+        <h5 class="foter">created by @raunak</h5>
+      </footer>
+
+    </div>
+</body>
+
+</html>
